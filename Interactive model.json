@@ -1,0 +1,189 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "game of throne quiz",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "customIntent",
+                    "slots": [],
+                    "samples": [
+                        "Valar Dohareis"
+                    ]
+                },
+                {
+                    "name": "quizIntent",
+                    "slots": [
+                        {
+                            "name": "decision",
+                            "type": "decisionSlot"
+                        }
+                    ],
+                    "samples": [
+                        "{decision}"
+                    ]
+                },
+                {
+                    "name": "answerIntent",
+                    "slots": [
+                        {
+                            "name": "game",
+                            "type": "answerSlot"
+                        }
+                    ],
+                    "samples": [
+                        "{game}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "answerSlot",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Craster"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Oldtown"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dontos Hollard"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Stannis Baratheon"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sand"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Gregor Clegane"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Renly Baratheon"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mance Rayder"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Twice"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Balon Greyjoy"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Rhaegar Targaryen"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Roose Bolton"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Astapor"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Nymeria"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Harrenhal"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Warg"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ice"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "decisionSlot",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "I am ready"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ready"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Yes"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "No"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Naah"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Yeah"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Yup"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Nope"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
